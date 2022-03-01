@@ -1,0 +1,5 @@
+the original image has an impulse distortion of 40%.
+then square-window median filters are run to remove the noise.
+with increasing window size it can be seen that noise removal performance increases, but so does loss of detail and rounding effects
+
+sqN = median filter with N pixel square window applied on impulse40.png
